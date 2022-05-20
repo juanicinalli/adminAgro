@@ -1,0 +1,26 @@
+{
+  "adminAgroApp": {
+    "tarea": {
+      "home": {
+        "title": "Tareas",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Tarea",
+        "createOrEditLabel": "Créer ou éditer un Tarea",
+        "notFound": "Aucun Tarea trouvé"
+      },
+      "created": "Un nouveau Tarea a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Tarea avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Tarea avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Tarea {{ id }} ?"
+      },
+      "detail": {
+        "title": "Tarea"
+      },
+      "id": "ID",
+      "nombre": "Nombre",
+      "descripcion": "Descripcion",
+      "trabajo": "Trabajo"
+    }
+  }
+}

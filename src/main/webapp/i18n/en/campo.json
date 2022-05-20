@@ -1,0 +1,29 @@
+{
+  "adminAgroApp": {
+    "campo": {
+      "home": {
+        "title": "Campos",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Campo",
+        "createOrEditLabel": "Create or edit a Campo",
+        "notFound": "No Campos found"
+      },
+      "created": "A new Campo is created with identifier {{ param }}",
+      "updated": "A Campo is updated with identifier {{ param }}",
+      "deleted": "A Campo is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Campo {{ id }}?"
+      },
+      "detail": {
+        "title": "Campo"
+      },
+      "id": "ID",
+      "numeroDeLote": "Numero De Lote",
+      "superficie": "Superficie",
+      "tenencia": "Tenencia",
+      "cultivo": "Cultivo",
+      "manejo": "Manejo",
+      "localidad": "Localidad"
+    }
+  }
+}

@@ -1,0 +1,95 @@
+
+entity Pais {
+	nombre String
+}
+
+entity Provincia {
+	nombre String
+}
+
+entity Localidad {
+	nombre String,
+	direccion String,
+	codigoPostal String
+}
+
+entity Empleado {
+
+	nombre String,
+	apellido String,
+	email String,
+	numeroDeTelefono String,
+	salario Long
+}
+
+entity Trabajo {
+	puesto String,
+	salario Long
+}
+
+entity Tarea {
+	nombre String,
+	descripcion String
+}
+
+entity Campo {
+	numeroDeLote Long,
+	superficie Float,
+    tenencia String,
+    cultivo String
+}
+    
+entity Insumos {
+	categoria String,
+    nombre String,
+    precioPorUnidad Double,
+    unidad String
+  }
+    
+entity Manejo {
+	labor String,
+    mes String,
+    costo Float
+}
+
+relationship OneToMany {
+	Pais{provincia} to Provincia
+}
+
+relationship OneToMany {
+	Provincia{localidad} to Localidad
+}
+
+relationship OneToMany {
+	Localidad{campo} to Campo
+}
+
+relationship OneToOne {
+	Empleado{trabajo} to Trabajo
+}
+
+relationship OneToMany {
+	Trabajo{tarea} to Tarea
+}
+
+relationship OneToOne {
+	Campo{manejo} to Manejo
+}
+
+relationship OneToMany {
+	Manejo{insumos} to Insumos
+}
+
+// Set pagination options
+paginate Pais, Provincia, Localidad, Campo, Manejo, Insumos with infinite-scroll
+paginate Empleado, Trabajo, Tarea with pagination
+
+// Use Data Transfer Objects (DTO)
+// dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl
+dto all with mapstruct
+
+// Set an angular suffix
+// angularSuffix * with mySuffix

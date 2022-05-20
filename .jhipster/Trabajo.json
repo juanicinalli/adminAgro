@@ -1,0 +1,31 @@
+{
+  "applications": "*",
+  "changelogDate": "20220520010454",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "trabajo",
+  "fields": [
+    {
+      "fieldName": "puesto",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "salario",
+      "fieldType": "Long"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Trabajo",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "tarea",
+      "otherEntityRelationshipName": "trabajo",
+      "relationshipName": "tarea",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "serviceImpl"
+}

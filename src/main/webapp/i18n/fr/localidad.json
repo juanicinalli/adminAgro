@@ -1,0 +1,28 @@
+{
+  "adminAgroApp": {
+    "localidad": {
+      "home": {
+        "title": "Localidads",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Localidad",
+        "createOrEditLabel": "Créer ou éditer un Localidad",
+        "notFound": "Aucun Localidad trouvé"
+      },
+      "created": "Un nouveau Localidad a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Localidad avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Localidad avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Localidad {{ id }} ?"
+      },
+      "detail": {
+        "title": "Localidad"
+      },
+      "id": "ID",
+      "nombre": "Nombre",
+      "direccion": "Direccion",
+      "codigoPostal": "Codigo Postal",
+      "campo": "Campo",
+      "provincia": "Provincia"
+    }
+  }
+}

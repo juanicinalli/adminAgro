@@ -1,0 +1,46 @@
+{
+  "applications": "*",
+  "changelogDate": "20220520010456",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "campo",
+  "fields": [
+    {
+      "fieldName": "numeroDeLote",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "superficie",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "tenencia",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "cultivo",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Campo",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "manejo",
+      "otherEntityRelationshipName": "campo",
+      "ownerSide": true,
+      "relationshipName": "manejo",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "localidad",
+      "otherEntityRelationshipName": "campo",
+      "relationshipName": "localidad",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

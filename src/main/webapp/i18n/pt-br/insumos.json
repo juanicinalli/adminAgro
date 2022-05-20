@@ -1,0 +1,28 @@
+{
+  "adminAgroApp": {
+    "insumos": {
+      "home": {
+        "title": "Insumos",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Insumos",
+        "createOrEditLabel": "Criar ou editar Insumos",
+        "notFound": "Nenhum Insumos encontrado"
+      },
+      "created": "Um novo Insumos foi criado com o identificador {{ param }}",
+      "updated": "Um Insumos foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Insumos foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Insumos {{ id }}?"
+      },
+      "detail": {
+        "title": "Insumos"
+      },
+      "id": "ID",
+      "categoria": "Categoria",
+      "nombre": "Nombre",
+      "precioPorUnidad": "Precio Por Unidad",
+      "unidad": "Unidad",
+      "manejo": "Manejo"
+    }
+  }
+}

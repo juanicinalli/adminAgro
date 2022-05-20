@@ -1,0 +1,29 @@
+{
+  "adminAgroApp": {
+    "empleado": {
+      "home": {
+        "title": "Empleados",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Empleado",
+        "createOrEditLabel": "Criar ou editar Empleado",
+        "notFound": "Nenhum Empleado encontrado"
+      },
+      "created": "Um novo Empleado foi criado com o identificador {{ param }}",
+      "updated": "Um Empleado foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Empleado foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Empleado {{ id }}?"
+      },
+      "detail": {
+        "title": "Empleado"
+      },
+      "id": "ID",
+      "nombre": "Nombre",
+      "apellido": "Apellido",
+      "email": "Email",
+      "numeroDeTelefono": "Numero De Telefono",
+      "salario": "Salario",
+      "trabajo": "Trabajo"
+    }
+  }
+}

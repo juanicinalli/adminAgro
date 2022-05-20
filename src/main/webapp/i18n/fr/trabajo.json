@@ -1,0 +1,26 @@
+{
+  "adminAgroApp": {
+    "trabajo": {
+      "home": {
+        "title": "Trabajos",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Trabajo",
+        "createOrEditLabel": "Créer ou éditer un Trabajo",
+        "notFound": "Aucun Trabajo trouvé"
+      },
+      "created": "Un nouveau Trabajo a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Trabajo avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Trabajo avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Trabajo {{ id }} ?"
+      },
+      "detail": {
+        "title": "Trabajo"
+      },
+      "id": "ID",
+      "puesto": "Puesto",
+      "salario": "Salario",
+      "tarea": "Tarea"
+    }
+  }
+}

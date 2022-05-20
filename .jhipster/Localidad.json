@@ -1,0 +1,41 @@
+{
+  "applications": "*",
+  "changelogDate": "20220520010452",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "localidad",
+  "fields": [
+    {
+      "fieldName": "nombre",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "direccion",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "codigoPostal",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Localidad",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "campo",
+      "otherEntityRelationshipName": "localidad",
+      "relationshipName": "campo",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "provincia",
+      "otherEntityRelationshipName": "localidad",
+      "relationshipName": "provincia",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

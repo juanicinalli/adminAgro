@@ -1,0 +1,39 @@
+{
+  "applications": "*",
+  "changelogDate": "20220520010457",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "insumos",
+  "fields": [
+    {
+      "fieldName": "categoria",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nombre",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "precioPorUnidad",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "unidad",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Insumos",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "manejo",
+      "otherEntityRelationshipName": "insumos",
+      "relationshipName": "manejo",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

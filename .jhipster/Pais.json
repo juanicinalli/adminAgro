@@ -1,0 +1,27 @@
+{
+  "applications": "*",
+  "changelogDate": "20220520010450",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "pais",
+  "fields": [
+    {
+      "fieldName": "nombre",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Pais",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "provincia",
+      "otherEntityRelationshipName": "pais",
+      "relationshipName": "provincia",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "serviceImpl"
+}

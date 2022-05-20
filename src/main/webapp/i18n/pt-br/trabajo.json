@@ -1,0 +1,26 @@
+{
+  "adminAgroApp": {
+    "trabajo": {
+      "home": {
+        "title": "Trabajos",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Trabajo",
+        "createOrEditLabel": "Criar ou editar Trabajo",
+        "notFound": "Nenhum Trabajo encontrado"
+      },
+      "created": "Um novo Trabajo foi criado com o identificador {{ param }}",
+      "updated": "Um Trabajo foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Trabajo foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Trabajo {{ id }}?"
+      },
+      "detail": {
+        "title": "Trabajo"
+      },
+      "id": "ID",
+      "puesto": "Puesto",
+      "salario": "Salario",
+      "tarea": "Tarea"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "applications": "*",
+  "changelogDate": "20220520010458",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "manejo",
+  "fields": [
+    {
+      "fieldName": "labor",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "mes",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "costo",
+      "fieldType": "Float"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Manejo",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "insumos",
+      "otherEntityRelationshipName": "manejo",
+      "relationshipName": "insumos",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "serviceImpl"
+}

@@ -1,0 +1,27 @@
+{
+  "adminAgroApp": {
+    "manejo": {
+      "home": {
+        "title": "Manejos",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Manejo",
+        "createOrEditLabel": "Create or edit a Manejo",
+        "notFound": "No Manejos found"
+      },
+      "created": "A new Manejo is created with identifier {{ param }}",
+      "updated": "A Manejo is updated with identifier {{ param }}",
+      "deleted": "A Manejo is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Manejo {{ id }}?"
+      },
+      "detail": {
+        "title": "Manejo"
+      },
+      "id": "ID",
+      "labor": "Labor",
+      "mes": "Mes",
+      "costo": "Costo",
+      "insumos": "Insumos"
+    }
+  }
+}

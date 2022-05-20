@@ -15,7 +15,22 @@
     <property name="datetimeType" value="datetime" dbms="oracle, mssql, postgresql, h2"/>
 
     <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220520010450_added_entity_Pais.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220520010451_added_entity_Provincia.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220520010452_added_entity_Localidad.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220520010453_added_entity_Empleado.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220520010454_added_entity_Trabajo.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220520010455_added_entity_Tarea.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220520010456_added_entity_Campo.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220520010457_added_entity_Insumos.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220520010458_added_entity_Manejo.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20220520010451_added_entity_constraints_Provincia.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220520010452_added_entity_constraints_Localidad.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220520010453_added_entity_constraints_Empleado.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220520010455_added_entity_constraints_Tarea.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220520010456_added_entity_constraints_Campo.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220520010457_added_entity_constraints_Insumos.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
     <!-- jhipster-needle-liquibase-add-incremental-changelog - JHipster will add incremental liquibase changelogs here -->
 </databaseChangeLog>

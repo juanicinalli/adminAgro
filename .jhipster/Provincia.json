@@ -1,0 +1,33 @@
+{
+  "applications": "*",
+  "changelogDate": "20220520010451",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "provincia",
+  "fields": [
+    {
+      "fieldName": "nombre",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Provincia",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "localidad",
+      "otherEntityRelationshipName": "provincia",
+      "relationshipName": "localidad",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "pais",
+      "otherEntityRelationshipName": "provincia",
+      "relationshipName": "pais",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

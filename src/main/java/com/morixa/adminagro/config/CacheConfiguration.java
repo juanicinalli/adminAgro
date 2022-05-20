@@ -48,6 +48,20 @@ public class CacheConfiguration {
             createCache(cm, com.morixa.adminagro.domain.User.class.getName());
             createCache(cm, com.morixa.adminagro.domain.Authority.class.getName());
             createCache(cm, com.morixa.adminagro.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.morixa.adminagro.domain.Pais.class.getName());
+            createCache(cm, com.morixa.adminagro.domain.Pais.class.getName() + ".provincias");
+            createCache(cm, com.morixa.adminagro.domain.Provincia.class.getName());
+            createCache(cm, com.morixa.adminagro.domain.Provincia.class.getName() + ".localidads");
+            createCache(cm, com.morixa.adminagro.domain.Localidad.class.getName());
+            createCache(cm, com.morixa.adminagro.domain.Localidad.class.getName() + ".campos");
+            createCache(cm, com.morixa.adminagro.domain.Empleado.class.getName());
+            createCache(cm, com.morixa.adminagro.domain.Trabajo.class.getName());
+            createCache(cm, com.morixa.adminagro.domain.Trabajo.class.getName() + ".tareas");
+            createCache(cm, com.morixa.adminagro.domain.Tarea.class.getName());
+            createCache(cm, com.morixa.adminagro.domain.Campo.class.getName());
+            createCache(cm, com.morixa.adminagro.domain.Insumos.class.getName());
+            createCache(cm, com.morixa.adminagro.domain.Manejo.class.getName());
+            createCache(cm, com.morixa.adminagro.domain.Manejo.class.getName() + ".insumos");
             // jhipster-needle-ehcache-add-entry
         };
     }

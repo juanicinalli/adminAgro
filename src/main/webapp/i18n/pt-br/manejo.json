@@ -1,0 +1,27 @@
+{
+  "adminAgroApp": {
+    "manejo": {
+      "home": {
+        "title": "Manejos",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Manejo",
+        "createOrEditLabel": "Criar ou editar Manejo",
+        "notFound": "Nenhum Manejo encontrado"
+      },
+      "created": "Um novo Manejo foi criado com o identificador {{ param }}",
+      "updated": "Um Manejo foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Manejo foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Manejo {{ id }}?"
+      },
+      "detail": {
+        "title": "Manejo"
+      },
+      "id": "ID",
+      "labor": "Labor",
+      "mes": "Mes",
+      "costo": "Costo",
+      "insumos": "Insumos"
+    }
+  }
+}
